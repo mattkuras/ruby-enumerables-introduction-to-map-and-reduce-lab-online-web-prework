@@ -1,6 +1,6 @@
 def map_to_negative(array)
   new_array = []
   counter = 0 
-  while counter 
+  while counter < array.length 
   
 end 
