@@ -48,7 +48,7 @@ def reduce_to_total(array, starting_point=0)
   total 
 end
 
-def map_to_all_true(array)
+def reduce_to_all_true(array)
   counter = 0 
   while counter < array.length do 
       return false if array[counter] == false 
