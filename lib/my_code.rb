@@ -52,11 +52,9 @@ def map_to_all_true(array)
   counter = 0 
   while counter < array.length do 
       return false if array[counter] == false 
-    else return true 
     counter += 1 
-  end
     end
-  new_array
+  return true 
 end 
 
 
